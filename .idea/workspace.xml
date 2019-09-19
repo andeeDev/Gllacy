@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ce66128-00bf-4830-8ef9-27af149cddbe" name="Default Changelist" comment="" />
+    <list default="true" id="2ce66128-00bf-4830-8ef9-27af149cddbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/cow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/htmlLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/ice-cream.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/inst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/stroke-berry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/thermometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/twiiter-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wafle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/ВК.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/ФБ.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -23,9 +46,15 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Osij92h6hFCQ4C0GvhIwusHPTa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LazyLoadingTest" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -58,11 +87,32 @@
       <workItem from="1564821339068" duration="10545000" />
       <workItem from="1564858426997" duration="5387000" />
       <workItem from="1565120532089" duration="104000" />
-      <workItem from="1565164298202" duration="11393000" />
+      <workItem from="1565164298202" duration="21004000" />
+      <workItem from="1565193056009" duration="13760000" />
+      <workItem from="1565255534193" duration="2097000" />
+      <workItem from="1566230439990" duration="626000" />
+      <workItem from="1566572457209" duration="123000" />
+      <workItem from="1568893026742" duration="23704000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

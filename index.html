@@ -19,7 +19,28 @@
                 </a>
                 <nav class="main-navigation">
                     <ul class="main-navigation-list">
-                        <li><a href="#">Каталог</a></li>
+                        <li class="catalog">
+                            <a class="catalog-link" href="#">Каталог</a>
+                            <div class="header-menu-wrapper">
+                                <ul class="header-sub-menu">
+                                    <li class="header-submenu-link-new">
+                                        <a href="#">Новинки</a>
+                                    </li>
+                                    <li class="header-submenu-link">
+                                        <a href="#">Сливки</a>
+                                    </li>
+                                    <li class="header-submenu-link">
+                                        <a href="#">Щербеты</a>
+                                    </li>
+                                    <li class="header-submenu-link">
+                                        <a href="#">Фруктовый лед</a>
+                                    </li>
+                                    <li class="header-submenu-link">
+                                        <a href="#">Мелорин</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href="#">Доставка и оплата</a></li>
                         <li><a href="#">О компании</a></li>
                     </ul>
@@ -27,8 +48,28 @@
             </div>
             <div class="right-content">
                 <ul class="common-buttons">
-                <li><a href="#" class="btn search-btn"></a></li>
-                <li><a href="#" class="btn enter-link">Вход</a></li>
+                <li class="search-btn-wrapper" >
+                    <a href="#" class="btn search-btn"></a>
+                    <div class="search-wrapper">
+                        <form class="search-form" action="#" method="get">
+                            <input class="search-input" type="text" name="search" placeholder="Что ищем?" required >
+                        </form>
+                    </div>
+                </li>
+                <li class="enter-link-wrapper">
+                    <a href="#" class="btn enter-link">Вход</a>
+                    <div class="login-form-wrapper">
+                        <form action="#" method="post">
+                            <input class="login-name" type="text" name="login-name" placeholder="Електронная почта">
+                            <input class="login-password" type="text" name="login-password" placeholder="Пароль">
+                            <button class="btn-sign">Войти</button>
+                        </form>
+                        <div class="helpful-links">
+                            <a href="#" class="forget-password">Забыли пароль</a>
+                            <a href="#" class="new-registration">Новый пользователь</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#" class="btn cart">Пусто</a></li>
             </ul>
             </div>
@@ -70,105 +111,128 @@
                     <a href="#" class="button">Хочу шоколадки!</a>
                 </div>
             </section>
-            <section class="hits">
+            <section class="hits-section">
                 <h2 class="visually-hidden">Хиты продаж</h2>
                 <ul class="ice-cream-list">
-                    <li>
+                    <li class="list-item">
                         <article class="hit item">
-                            <img src="imgs/item1.png" width="267" height="267">
-                            <p class="price">310₽<span>/кг</span></p>
-                            <div class="item-text-wrapper">
-                                <a class="item-heading">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
-                                <div class="item-button-wrapper">
-                                    <a href="#" class="button item-button">Быстрый просмотр</a>
+                            <div class="item-content">
+                                <img src="imgs/item1.png" width="267" height="267">
+                                <p class="price">310₽<span>/кг</span></p>
+                                <div class="item-text-wrapper">
+                                    <a class="item-heading">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
                                 </div>
                             </div>
+                            <a href="#" class="button item-button">Быстрый просмотр</a>
                         </article>
                     </li>
-                    <li>
+
+                    <li class="list-item">
                         <article class="hit item">
-                            <img src="imgs/item2.png" width="267" height="267">
-                            <p class="price">380₽<span>/кг</span></p>
-                            <div class="item-text-wrapper">
-                                <a class="item-heading">Сливочно-кофейное с кусочками шоколада</a>
-                                <div class="item-button-wrapper">
-                                    <a href="#" class="button item-button">Быстрый просмотр</a>
+                            <div class="item-content">
+                                <img src="imgs/item2.png" width="267" height="267">
+                                <p class="price">380₽<span>/кг</span></p>
+                                <div class="item-text-wrapper">
+                                    <a class="item-heading">Сливочно-кофейное с кусочками шоколада</a>
                                 </div>
                             </div>
+                            <a href="#" class="button item-button">Быстрый просмотр</a>
                         </article>
                     </li>
-                    <li>
+
+                    <li class="list-item">
                         <article class="hit item">
-                            <img src="imgs/item3.png" width="267" height="267">
-                            <p class="price">355₽<span>/кг</span></p>
-                            <div class="item-text-wrapper">
-                                <a class="item-heading">Сливочно-клубничное с присыпкой из белого шоколада</a>
-                                <div class="item-button-wrapper">
-                                    <a href="#" class="button item-button">Быстрый просмотр</a>
+                            <div class="item-content">
+                                <img src="imgs/item3.png" width="267" height="267">
+                                <p class="price">355₽<span>/кг</span></p>
+                                <div class="item-text-wrapper">
+                                    <a class="item-heading">Сливочно-клубничное с присыпкой из белого шоколада</a>
                                 </div>
                             </div>
+                            <a href="#" class="button item-button">Быстрый просмотр</a>
                         </article>
                     </li>
-                    <li>
+
+                    <li class="list-item">
                         <article class="hit item">
-                            <img src="imgs/item4.png" width="267" height="267">
-                            <p class="price">415₽<span>/кг</span></p>
-                            <div class="item-text-wrapper">
-                                <a class="item-heading">Сливочное крем-брюле с карамельной подливкой</a>
+                            <div class="item-content">
+                                <img src="imgs/item4.png" width="267" height="267">
+                                <p class="price">415₽<span>/кг</span></p>
+                                <div class="item-text-wrapper">
+                                    <a class="item-heading">Сливочное крем-брюле с карамельной подливкой</a>
+                                </div>
                             </div>
-                            <div class="item-button-wrapper">
-                                <a href="#" class="button item-button">Быстрый просмотр</a>
-                            </div>
+                            <a href="#" class="button item-button">Быстрый просмотр</a>
                         </article>
                     </li>
                 </ul>
             </section>
+
             <section class="features">
                 <h2>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
-                <ul>
-                    <li>
+                <ul class="features-list">
+                    <li class="item item-1">
                         <p>
                             Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
                         </p>
                     </li>
-                    <li>
+                    <li class="item item-2">
                         <p>
                             Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
                         </p>
                     </li>
-                    <li>
+                    <li class="item  item-3">
                         <p>
                             Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
                         </p>
                     </li>
-                    <li>
+                    <li class="item  item-4">
                         <p>
                             Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
                         </p>
                     </li>
                 </ul>
             </section>
+
             <div class="post-subscribe">
                 <article class="new-post">
-                    <p>Новое в нашем блоге</p>
-                    <h2>
+                    <p class="post-text">Новое в нашем блоге</p>
+                    <h2 class="main-info">
                         <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
                     </h2>
                 </article>
+
                 <section class="subscription">
-                    <h2 class="visually-hidden"></h2>
-                    <p class="subscription-info">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-                    <form class="subscription-form"  action="#" method="post">
-                        <input type="text" placeholder="Электронная почта">
-                        <button class="button subscription-button" type="submit">Отправить</button>
-                    </form>
+                    <!--<h2 class="visually-hidden">Подписка</h2>-->
+                    <div class="sub-info-wrapper">
+                        <p class="subscription-info">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+                        <form class="subscription-form"  action="#" method="post">
+                            <div class="input-wrapper">
+                                <input type="text" placeholder="Электронная почта">
+                            </div>
+                            <button class="button subscription-button" type="submit">Отправить</button>
+                        </form>
+                    </div>
                 </section>
             </div>
+
             <section class="map">
-                <h2 class="visually-hidden">Расположение</h2>
+
                 <div class="map">
+                   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1565201163351!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
                     <div class="container-location">
+					<iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1568476906903!5m2!1sru!2sua"
+                            width="1150"
+                            height="450"
+                            frameborder="1"
+                            style="border:0;
+                            margin:10px auto;
+                            display: block;
+                                border-radius: 10px;"
+                            allowfullscreen=""></iframe>
                         <section class="contacts">
+                            <h2 class="visually-hidden">Расположение</h2>
                             <p>
                                 Адрес главного офиса<br>
                                 и офлайн магазина:
@@ -189,27 +253,27 @@
         </main>
         <footer>
             <section>
-                <h2 class="social-buttons">Мы в социальных сетях</h2>
+                <h2 class="social-buttons visually-hidden">Мы в социальных сетях</h2>
                     <ul class="social-buttons">
-                        <li><a href="#">Твитер</a></li>
-                        <li><a href="#">Инсаграм</a></li>
-                        <li><a href="#">Фесбук</a></li>
-                        <li><a href="#">ВКонтакте</a></li>
+                        <li><a class="twitter" href="#">Твиттер</a></li>
+                        <li><a class="instagram" href="#">Инсаграм</a></li>
+                        <li><a class="facebook" href="#">Фесбук</a></li>
+                        <li><a class="vk" href="#">ВКонтакте</a></li>
                     </ul>
                 <div class="footer-sub-menu">
                     <div class="submenu-left">
-                        <a href=""></a>
-                        <a href=""></a>
+                        <a class="heart" href="">Для поставщиков</a>
+                        <a href="">О производителе</a>
                     </div>
-                    <div class="sub-menu-right">
-                        <a href=""></a>
-                        <a href=""></a>
+                    <div class="submenu-right">
+                        <a href="">Наши документы</a>
+                        <a href="">Экологические стандарты</a>
                     </div>
                 </div>
 
                 <div class="copy-right">
-                    <img src="" alt="">
-                    <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy </a>© 2016</p>
+                    <img src="./imgs/htmlLogo.png" alt="htmlacademy">
+                    <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy </a>© 2019</p>
                 </div>
 
             </section>
